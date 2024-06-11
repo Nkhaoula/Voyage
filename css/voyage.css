@@ -1,5 +1,6 @@
 body{
     color: white;
+    
 }
 header{
     background-color: #3FD4BB;
@@ -22,31 +23,36 @@ a{
     color: white;
     font-weight: bold;
     font-size: 15px;
-    padding: 1px 30px;
+    padding: 40px;
+    
 }
 .titre{
     background-color:#22C1C3;
     text-align: right;
-    
+    color: white;
 
 }
 main{
     background-color: white;
-    width: 160%;
+    width: 80%;
     margin: 0 auto;
+}
+.zoneText{
+    padding: 2%;
 }
 .zone_1{
     background:  linear-gradient(to bottom, rgb(100, 160, 228), rgb(178, 133, 158));
     margin-left: 10%;
-    width: 40%;
+    width: 80%;
     border-radius: 10px;   
     display: flex;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+
 }
 .zone_2{
     background: linear-gradient(to top, rgb(94, 217, 194),rgb(73, 144, 194));
     margin-left: 10%;
-    width: 40%;
+    width: 80%;
     border-radius: 10px;  
     display: flex;
     margin-bottom: 20px;
@@ -54,7 +60,7 @@ main{
 .zone_3{
     background:	 linear-gradient(to top, rgb(215, 132, 35),rgb(92,144,181));
     margin-left: 10%;
-    width: 40%;
+    width: 80%;
     border-radius: 10px;
     display:flex;
     margin-bottom: 20px;
@@ -66,6 +72,7 @@ h2,h3,h4{
     border-radius:50%;
     height: 300px;
     width: 300px;
+    padding: 2%;
 }
 .th{
     order: 2;
@@ -74,4 +81,31 @@ footer{
     background-color: #3FD4BB;
     margin: 0 auto;
     padding: 1%;
+}
+@media (min-width: 768px){
+    header{
+        background-color: red;
+    }
+    .section{
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 992px){
+    header{
+        background-color: rgb(30, 0, 255);
+    }
+    .section{
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1200px){
+    header{
+        background: green;
+    }
+    .section{
+        flex-wrap: wrap;
+    
+    }
 }
